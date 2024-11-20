@@ -13,6 +13,9 @@ return {
   impl = {
     filetypes = { "go" }
   },
+  json_to_struct = {
+    filetypes = { "go" }
+  },
   proselint = {
     filetypes = { "markdown", "tex" }
   },

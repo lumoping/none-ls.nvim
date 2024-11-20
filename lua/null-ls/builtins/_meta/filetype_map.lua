@@ -153,7 +153,7 @@ return {
     formatting = { "gn_format" }
   },
   go = {
-    code_actions = { "gomodifytags", "impl", "refactoring" },
+    code_actions = { "gomodifytags", "impl", "refactoring", "json_to_struct" },
     diagnostics = { "golangci_lint", "revive", "semgrep", "staticcheck" },
     formatting = { "gofmt", "gofumpt", "goimports", "goimports_reviser", "golines" }
   },

@@ -61,6 +61,10 @@ return h.make_builtin({
                         if tag == nil then
                             return
                         end
+                        -- TODO: 改成输入框下选项
+                        if op == "-add-tags" and tag == "gorm" then
+                            tag = tag .. ' -template "column:{field}"'
+                        end
                         exec(struct_name, field_name, op, tag)
                     end)
                 end
